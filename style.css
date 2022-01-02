@@ -76,3 +76,57 @@ h2 {
   font-size: 18px;
   font-weight: bold;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:#89e9f0;;
+}
+.link-my-github {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.link-my-github img {
+  padding-right: 10px;
+  margin: 0px;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .container {
+    box-shadow: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2) 1fr;
+    background-color: #ebdede;
+  }
+  .column-two .line {
+    border-bottom: 3px dashed #2ae21a;
+  }
+  .about-myself p {
+    text-align: justify;
+  }
+  .code-examples {
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 451px) and (max-width: 830px) {
+  .container {
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: none;
+  }
+  footer {
+    width: 100%;
+  }
+}
