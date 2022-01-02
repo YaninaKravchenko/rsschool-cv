@@ -35,3 +35,20 @@ Create a function that takes an integer as an argument and returns "Even" for ev
   }
 }
 ```
+
+***
+### Education ###
+
+* __University:__ 
+  * _Sukhoi State Technical University of Gomel:_
+    * Specilaities: Automation Electric Drive
+* __Courses:__
+    * _IT-Academy Educational Center for Programming and High Tech:_
+        * Website development with HTML, CSS and Javascript (Basic)
+
+***
+
+### Languages ###
+
+*   _Russian_ - native speaker
+*   _English_ - A2
