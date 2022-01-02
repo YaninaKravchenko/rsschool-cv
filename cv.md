@@ -25,7 +25,7 @@ Ability to work in multitasking mode. Teamwork skills. I have good communication
 ### Code Examples ###
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 ```javascript
-  function even_or_odd(number) {
+function even_or_odd(number) {
   
   if (number % 2 === 0) {
     return "Even";
