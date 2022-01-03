@@ -3,6 +3,7 @@ h2 {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .line {
   width: 80%;
   height: auto;
@@ -10,23 +11,28 @@ h2 {
   margin-right: auto;
   border-bottom: 3px dashed #89e9f0;
 }
+
 .container {
   width: 50%;
   margin: 20px auto;
   box-shadow: 10px -10px 10px 5px #c0ecbc;
 }
+
 .columns {
   display: flex;
 }
+
 .column-one {
   padding-left: 10px;
   padding-right: 30px;
   padding-bottom: 10px;
   background-color: #ebaad2;
 }
+
 .avatar {
   text-align: center;
 }
+
 .avatar img {
   width: 70%;
   height: auto;
@@ -34,48 +40,59 @@ h2 {
   border: 5px solid #89e9f0;
   border-radius: 50% 50% 50% 20%;
 }
+
 .avatar h1 {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 26px;
 }
+
 .img {
   padding-left: 5px;
 }
+
 .img li {
   display: flex;
   padding-top: 5px;
   list-style-type: none;
 }
+
 .img li img,
 .img li p {
   display: inline;
   vertical-align: middle;
   margin-right: 5px;
 }
+
 .contacts {
   display: grid;
   grid-template-rows: repeat(3) 1fr;
   padding-left: 10px;
 }
+
 .column-two {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .column-two .line {
   width: 100%;
   border-bottom: 3px dashed #ebaad2;
 }
+
 .img-column-two {
   display: flex;
 }
+
 .img-column-two img {
   margin-right: 15px;
 }
+
 .code-examples p:first-of-type {
   font-size: 18px;
   font-weight: bold;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -83,6 +100,7 @@ footer {
   padding-right: 20px;
   background-color:#89e9f0;;
 }
+
 .link-my-github {
   display: flex;
   justify-content: space-between;
@@ -94,10 +112,12 @@ footer {
   padding-right: 10px;
   cursor: pointer;
 }
+
 .link-my-github img {
   padding-right: 10px;
   margin: 0px;
 }
+
 @media (min-width: 320px) and (max-width: 450px) {
   .container {
     box-shadow: none;
@@ -120,6 +140,7 @@ footer {
     padding-bottom: 20px;
   }
 }
+
 @media (min-width: 451px) and (max-width: 830px) {
   .container {
     width: 80%;
