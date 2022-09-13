@@ -27,13 +27,13 @@ Ability to work in multitasking mode. Teamwork skills. I have good communication
 
 ```javascript
     function solution(n){
-    let x = 0;
-      for(let i = 3; i < n; i++) {
-        if (i % 3 === 0 || i % 5 === 0) {
-          x += i;
+      let x = 0;
+        for(let i = 3; i < n; i++) {
+          if (i % 3 === 0 || i % 5 === 0) {
+            x += i;
+          }
         }
-      }
-    return x;
+      return x;
     }
 ```
 
